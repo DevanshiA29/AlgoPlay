@@ -1,157 +1,85 @@
-AlgoPlay: The Ultimate Algorithm & Puzzle Arcade
+# AlgoPlay: The Ultimate Algorithm & Puzzle Arcade
 
-AlgoPlay is a visually stunning, interactive web application that allows users to explore, play, and learn through four algorithmic and puzzle-based games. With smooth animations, dynamic backgrounds, and gamified interactivity, it provides a futuristic and engaging experience for users.
+[![AlgoPlay Demo](screenshots/demo.gif)](https://your-demo-link.com)
 
-Table of Contents
+**AlgoPlay** is a visually stunning, interactive web application where users can explore algorithmic puzzles and mini-games. It combines learning with fun, featuring smooth animations, dynamic backgrounds, and gamified interactivity.
 
-Features
+---
 
-Games Included
+## Table of Contents
 
-Tech Stack
+- [Demo](#demo)  
+- [Features](#features)  
+- [Games Included](#games-included)  
+- [Tech Stack](#tech-stack)  
+- [Setup Instructions](#setup-instructions)  
+- [Functionalities](#functionalities)  
+- [Screenshots & GIFs](#screenshots--gifs)  
+- [Future Enhancements](#future-enhancements)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-Setup Instructions
+---
 
-Functionalities
+## Demo
 
-Screenshots
+Click the GIF to see a live demo:
 
-Future Enhancements
+[![AlgoPlay Demo](screenshots/demo.gif)](https://your-demo-link.com)
 
-Contributing
+- **Dashboard Interaction**: Hover effects, smooth game card transitions.  
+- **Animated Background**: Particle flow reacting to mouse movement.  
+- **Games in Action**: N-Queens solver, sorting visualizer, pathfinding grid, word search.
 
-License
+---
 
-Features
+## Features
 
-Modern and interactive dashboard with animated game cards.
+- Interactive **game selection dashboard** with animated cards.  
+- Dynamic **particle background** that reacts to cursor movements.  
+- Custom **animated cursor** with trail effects.  
+- **Dark/Light mode** toggle with smooth gradient transitions.  
+- Responsive layout for **desktop, tablet, and mobile**.  
+- **Settings modal** for customizing game parameters (speed, grid size, difficulty).  
+- Real-time feedback and success animations for user actions.
 
-Smooth page transitions between games.
+---
 
-Dynamic particle-based background that reacts to mouse movements.
+## Games Included
 
-Custom animated cursor with trail effects.
+1. **N-Queens Solver & Visualizer**  
+   [![NQueens GIF](screenshots/nqueens.gif)](https://your-demo-link.com)  
+   - Step-by-step backtracking visualization.  
+   - Interactive chessboard with animated queen placements.
 
-Responsive design for desktop, tablet, and mobile.
+2. **Shortest Path Finder**  
+   [![Pathfinding GIF](screenshots/pathfinding.gif)](https://your-demo-link.com)  
+   - Grid-based pathfinding using **Dijkstra** & **A*** algorithms.  
+   - Users can add walls, find paths, and watch algorithm visualization.
 
-Dark/light mode toggle with gradient transitions.
+3. **Sorting Algorithm Visualizer**  
+   [![Sorting GIF](screenshots/sorting.gif)](https://your-demo-link.com)  
+   - Visualizes **bubble, insertion, merge, and quick sort** with color-coded swaps.
 
-Settings modal for game customization (speed, grid size, etc.).
+4. **Word Search / Crossword Solver**  
+   [![WordSearch GIF](screenshots/wordsearch.gif)](https://your-demo-link.com)  
+   - Users can manually find words or auto-solve puzzles with real-time highlights.
 
-Real-time statistics and success animations for better user engagement.
+---
 
-Games Included
+## Tech Stack
 
-N-Queens Solver & Visualizer
+- **Frontend**: React, TypeScript, Tailwind CSS, Framer Motion  
+- **Backend (Optional)**: Node.js + Express  
+- **Database (Optional)**: MongoDB  
+- **Animations**: Particle.js / Three.js  
+- **Tools**: Vite / Create React App, Git, GitHub
 
-Visualizes the classic backtracking algorithm.
+---
 
-Animates queen placement on an interactive chessboard.
+## Setup Instructions
 
-Shortest Path Finder
-
-Grid-based game using Dijkstra and A* algorithms.
-
-Users can draw walls, find shortest paths, and watch step-by-step visualization.
-
-Sorting Algorithm Visualizer
-
-Interactive animations for bubble, insertion, merge, and quick sort.
-
-Shows comparisons, swaps, and the sorting process dynamically.
-
-Word Search / Crossword Solver
-
-Users can manually find words or use an auto-solve feature.
-
-Highlights words in real-time for interactive gameplay.
-
-Tech Stack
-
-Frontend: React, TypeScript, Tailwind CSS, Framer Motion
-
-Backend: Node.js + Express (optional for future enhancements like saving scores)
-
-Database: MongoDB (optional for user profiles and leaderboards)
-
-Animations: CSS, Framer Motion, Particle.js / Three.js for dynamic background
-
-Tools: Vite / Create React App, Git, GitHub
-
-Setup Instructions
-
-Clone the repository
-
+1. **Clone the repo**  
+```bash
 git clone https://github.com/yourusername/AlgoPlay.git
 cd AlgoPlay
-
-
-Install dependencies
-
-npm install
-
-
-Start the development server
-
-npm run dev
-
-
-Open http://localhost:5173
- in your browser.
-
-Functionalities
-
-Interactive game selection dashboard.
-
-Customizable algorithm speeds and grid sizes.
-
-Dark/Light mode toggle.
-
-Animated particle background and cursor effects.
-
-Responsive and mobile-friendly design.
-
-Smooth hover effects and transition animations across all components.
-
-Success notifications and visual feedback upon completing tasks.
-
-Screenshots
-
-Include screenshots of the dashboard, N-Queens visualizer, pathfinding grid, sorting visualizer, and word search game.
-Example:
-
-
-
-
-Future Enhancements
-
-Leaderboard & Achievements for gamification.
-
-User authentication to save progress and scores.
-
-Multiplayer mode for Tic-Tac-Toe or Connect Four mini-games.
-
-Audio feedback & sound effects for interactions.
-
-More algorithmic games like Tower of Hanoi, Maze Generator, or Graph Playground.
-
-Contributing
-
-Contributions are welcome! Please follow these steps:
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-name)
-
-Make your changes
-
-Commit your changes (git commit -m 'Add feature')
-
-Push to the branch (git push origin feature-name)
-
-Create a Pull Request
-
-License
-
-This project is licensed under the MIT License. See the LICENSE
- file for details.
