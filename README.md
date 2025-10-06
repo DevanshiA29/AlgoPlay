@@ -1,117 +1,90 @@
 # AlgoPlay: The Ultimate Algorithm & Puzzle Arcade
 
-[![AlgoPlay Demo](screenshots/demo.gif)](https://your-demo-link.com)
+![AlgoPlay Demo](screenshots/demo.gif)
 
 **AlgoPlay** is a visually stunning, interactive web application where users can explore algorithmic puzzles and mini-games. It combines learning with fun, featuring smooth animations, dynamic backgrounds, and gamified interactivity.
 
 ---
 
-## Table of Contents
-
-- [Demo](#demo)  
-- [Features](#features)  
-- [Games Included](#games-included)  
-- [Tech Stack](#tech-stack)  
-- [Setup Instructions](#setup-instructions)  
-- [Functionalities](#functionalities)  
-- [Screenshots & GIFs](#screenshots--gifs)  
-- [Future Enhancements](#future-enhancements)  
-- [Contributing](#contributing)  
-- [License](#license)  
+## 📘 Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Games Included](#games-included)
+- [Tech Stack](#tech-stack)
+- [Setup Instructions](#setup-instructions)
+- [Functionalities](#functionalities)
+- [Screenshots & GIFs](#screenshots--gifs)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## Demo
+## 🚀 Demo
 
-Click the GIF to see a live demo:
-
+Click the GIF to see a live demo:  
 [![AlgoPlay Demo](screenshots/demo.gif)](https://your-demo-link.com)
 
-- **Dashboard Interaction**: Hover effects, smooth game card transitions.  
-- **Animated Background**: Particle flow reacting to mouse movement.  
-- **Games in Action**: N-Queens solver, sorting visualizer, pathfinding grid, word search.
+- **Dashboard Interaction**: Hover effects, smooth transitions.  
+- **Animated Background**: Particles respond to mouse movement.  
+- **Games in Action**: N-Queens, Sorting Visualizer, Pathfinding, Word Search.
 
 ---
 
-## Features
+## ✨ Features
 
-- Interactive **game selection dashboard** with animated cards.  
-- Dynamic **particle background** that reacts to cursor movements.  
-- Custom **animated cursor** with trail effects.  
-- **Dark/Light mode** toggle with smooth gradient transitions.  
-- Responsive layout for **desktop, tablet, and mobile**.  
-- **Settings modal** for customizing game parameters (speed, grid size, difficulty).  
-- Real-time feedback and success animations for user actions.
-
----
-
-## Games Included
-
-1. **N-Queens Solver & Visualizer**  
-   [![NQueens GIF](screenshots/nqueens.gif)](https://your-demo-link.com)  
-   - Step-by-step backtracking visualization.  
-   - Interactive chessboard with animated queen placements.
-
-2. **Shortest Path Finder**  
-   [![Pathfinding GIF](screenshots/pathfinding.gif)](https://your-demo-link.com)  
-   - Grid-based pathfinding using **Dijkstra** & **A*** algorithms.  
-   - Users can add walls, find paths, and watch algorithm visualization.
-
-3. **Sorting Algorithm Visualizer**  
-   [![Sorting GIF](screenshots/sorting.gif)](https://your-demo-link.com)  
-   - Visualizes **bubble, insertion, merge, and quick sort** with color-coded swaps.
-
-4. **Word Search / Crossword Solver**  
-   [![WordSearch GIF](screenshots/wordsearch.gif)](https://your-demo-link.com)  
-   - Users can manually find words or auto-solve puzzles with real-time highlights.
+- 🎮 Interactive **game dashboard** with animated cards  
+- 🌌 Dynamic **particle background** that reacts to cursor  
+- 🖱️ Custom **animated cursor** with trail effects  
+- 🌗 **Dark/Light mode** toggle with gradient transitions  
+- 📱 Fully **responsive** for all devices  
+- ⚙️ **Settings modal** for algorithm speed & grid size  
+- 🏆 Real-time feedback and success animations  
 
 ---
 
-## Tech Stack
+## 🎯 Games Included
 
-- **Frontend**: React, TypeScript, Tailwind CSS, Framer Motion  
-- **Backend (Optional)**: Node.js + Express  
-- **Database (Optional)**: MongoDB  
-- **Animations**: Particle.js / Three.js  
-- **Tools**: Vite / Create React App, Git, GitHub
+### 1. N-Queens Solver & Visualizer  
+![NQueens GIF](screenshots/nqueens.gif)  
+- Step-by-step backtracking visualization  
+- Interactive chessboard with animated queen placement  
+
+### 2. Shortest Path Finder  
+![Pathfinding GIF](screenshots/pathfinding.gif)  
+- Grid-based pathfinding using **Dijkstra** and **A\*** algorithms  
+- Wall drawing, start/target nodes, and live visualization  
+
+### 3. Sorting Algorithm Visualizer  
+![Sorting GIF](screenshots/sorting.gif)  
+- Visualizes **Bubble, Merge, Quick,** and **Insertion Sort**  
+- Color-coded comparisons and swaps  
+
+### 4. Word Search / Crossword Solver  
+![WordSearch GIF](screenshots/wordsearch.gif)  
+- Play manually or auto-solve generated word grids  
 
 ---
 
-## Setup Instructions
+## 🧩 Tech Stack
 
-1. **Clone the repo**  
+- **Frontend** – React, TypeScript, TailwindCSS, Framer-Motion  
+- **Backend (optional)** – Node.js, Express  
+- **Database (optional)** – MongoDB  
+- **Animations** – Particle.js / Three.js  
+- **Tools** – Vite, Git, GitHub  
+
+---
+
+## ⚙️ Setup Instructions
+
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/AlgoPlay.git
 cd AlgoPlay
-2. **Install dependencies**
+
+# Install dependencies
 npm install
 
-3 **Start the development server**
+# Start development server
 npm run dev
-Open http://localhost:5173
- in your browser.
-
-##Functionalities
--**Interactive game selection dashboard with hover effects.
--**Customizable algorithms (speed, grid size, difficulty).
--**Dark/light mode toggle with smooth animations.
--**Dynamic particle-based background reacting to mouse movement.
--**Animated cursor trails and interactive feedback.
--**Responsive design for all screen sizes.
--**Real-time statistics and visual success notifications.
-
-
-#N-Queens Solver	
-#Sorting Visualizer	
-#Pathfinding Game	
-#Word Search Puzzle	
-
-##Future Enhancements
-
--**Leaderboard & achievements to gamify experience.
--**User authentication and profile management.
--**Multiplayer mini-games like Tic-Tac-Toe or Connect Four.
--**Subtle sound effects for interactions.
--**Additional algorithmic games (Tower of Hanoi, Maze Generator, Graph Playground).
-
-
