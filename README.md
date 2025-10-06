@@ -83,3 +83,35 @@ Click the GIF to see a live demo:
 ```bash
 git clone https://github.com/yourusername/AlgoPlay.git
 cd AlgoPlay
+2. **Install dependencies**
+npm install
+
+3 **Start the development server**
+npm run dev
+Open http://localhost:5173
+ in your browser.
+
+##Functionalities
+-**Interactive game selection dashboard with hover effects.
+-**Customizable algorithms (speed, grid size, difficulty).
+-**Dark/light mode toggle with smooth animations.
+-**Dynamic particle-based background reacting to mouse movement.
+-**Animated cursor trails and interactive feedback.
+-**Responsive design for all screen sizes.
+-**Real-time statistics and visual success notifications.
+
+
+#N-Queens Solver	
+#Sorting Visualizer	
+#Pathfinding Game	
+#Word Search Puzzle	
+
+##Future Enhancements
+
+-**Leaderboard & achievements to gamify experience.
+-**User authentication and profile management.
+-**Multiplayer mini-games like Tic-Tac-Toe or Connect Four.
+-**Subtle sound effects for interactions.
+-**Additional algorithmic games (Tower of Hanoi, Maze Generator, Graph Playground).
+
+
